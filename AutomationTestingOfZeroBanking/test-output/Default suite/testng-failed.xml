@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TC002VerifyLogin2">
+      <class name="testcases.TC003VerifySearch">
         <methods>
-          <include name="verifyLogin"/>
           <include name="tearDown"/>
-          <include name="setup"/>
           <include name="init"/>
-          <include name="tearDown"/>
+          <include name="VerifySearch" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testcases.TC002VerifyLogin2 -->
+      </class> <!-- testcases.TC003VerifySearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
