@@ -49,7 +49,7 @@ public class TC002VerifyLogin extends BaseClass {
 	@Test
 	public void verifyLogin() {
 	//Below is for log4j logs
-   	app_logs.info("Verify login test has started");
+   	app_logs.info("Verify login test has started and will be running for a while");
 		
    	    hp = new HomePage(driver);
 	
