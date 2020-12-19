@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.relevantcodes.extentreports.LogStatus;
 
 import base.BaseClass;
@@ -16,6 +17,9 @@ public class TC003VerifySearch extends BaseClass {
 	
 	SearchPage sp;
 		
+	
+	
+	
 	@Test (dataProvider ="getSearchData")
 	public void VerifySearch(String searchData) {
 		
@@ -33,6 +37,7 @@ public class TC003VerifySearch extends BaseClass {
 			System.out.println("Search successful");
 			app_logs.info("Search test was successful");
 			Assert.assertTrue(SearchFound.contains("The following pages were found for the query"));
+			//logger.log(Status.PASS, "Login Test Verified and passed");
 		}
 		
 		
@@ -52,7 +57,7 @@ public class TC003VerifySearch extends BaseClass {
 	   Object [] data = new Object[2];   
 	   //1st row of data
 	   data[0] = "help";
-	   data[1] = "Winter_time";
+	   data[1] = "Winter_time is here";
 	   
 	   return data;
 	} 

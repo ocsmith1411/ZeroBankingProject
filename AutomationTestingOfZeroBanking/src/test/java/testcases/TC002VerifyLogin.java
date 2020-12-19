@@ -77,7 +77,6 @@ public class TC002VerifyLogin extends BaseClass {
 			System.out.println("\nTest Fail\n");
 			String temp2=ScreenCapUtility.getScreenshot(driver);
 			System.out.println(temp2);
-			//logger.pass(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp2).build());
 			logger.fail(result.getThrowable().getMessage(), MediaEntityBuilder.createScreenCaptureFromPath(temp2).build());
 		
 			System.out.println(result.getThrowable().getMessage());
@@ -87,6 +86,5 @@ public class TC002VerifyLogin extends BaseClass {
 		report.flush();
 		driver.quit();
 	}	
-	
 	
 }

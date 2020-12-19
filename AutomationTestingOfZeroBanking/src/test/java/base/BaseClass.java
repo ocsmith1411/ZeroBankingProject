@@ -17,6 +17,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
@@ -39,7 +40,7 @@ public class BaseClass extends ZBLogging {
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	
-
+	
 	@BeforeSuite()
 	public static void init() throws IOException {
 		if (driver == null) {
