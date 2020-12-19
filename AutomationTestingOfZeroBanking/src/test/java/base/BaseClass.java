@@ -10,6 +10,7 @@ import javax.mail.internet.AddressException;
 
 //import org.apache.logging.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.omg.CORBA.INITIALIZE;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -85,7 +86,7 @@ public class BaseClass extends ZBLogging {
 		
 		//close browser
 		
-		if(driver!=null) {
+		if(driver ==null) {
 			logger.debug(".....now exiting web browser...");
 			driver.quit();
 		 	}

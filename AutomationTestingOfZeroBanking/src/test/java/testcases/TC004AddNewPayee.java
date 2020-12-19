@@ -25,7 +25,7 @@ public class TC004AddNewPayee extends ZBLogging {
 	
 	@BeforeMethod
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\eclipse-workspace\\AutomationTestingOfZeroBanking\\src\\test\\resources\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\git\\ZeroBankingProject\\AutomationTestingOfZeroBanking\\src\\test\\resources\\Drivers\\chromedriver.exe");
 		
 		logger.debug("Configuring driver and loading test site URL");
 		
@@ -73,7 +73,7 @@ public class TC004AddNewPayee extends ZBLogging {
 		@DataProvider(name="credential")
 		public Object[][] passdata() throws IOException{
 			
-		File src=new File("C:\\Users\\Owner\\eclipse-workspace\\AutomationTestingOfZeroBanking\\src\\test\\resources\\DataDrivenResources\\newwpayeetestdata.xlsx");
+		File src=new File("C:\\Users\\Owner\\git\\ZeroBankingProject\\AutomationTestingOfZeroBanking\\src\\test\\resources\\DataDrivenResources\\newwpayeetestdata.xlsx");
 		//load the excel file
 		logger.debug(".....loading excel file to read data...");
 		

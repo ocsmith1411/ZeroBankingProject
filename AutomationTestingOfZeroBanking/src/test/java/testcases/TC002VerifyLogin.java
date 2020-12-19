@@ -34,7 +34,7 @@ public class TC002VerifyLogin extends BaseClass {
 	@BeforeMethod
 	public void setup()
 	{
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter ("C:\\Users\\Owner\\eclipse-workspace\\AutomationTestingOfZeroBanking\\src\\test\\resources\\ExtentsReport\\ZeroBankingTestRpt.html");
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter ("C:\\Users\\Owner\\git\\ZeroBankingProject\\AutomationTestingOfZeroBanking\\src\\test\\resources\\ExtentsReport\\ZeroBankingTestRpt.html");
 	    
 		
 		report = new ExtentReports();
@@ -84,7 +84,7 @@ public class TC002VerifyLogin extends BaseClass {
 		}
 		
 		report.flush();
-		driver.quit();
+		//driver.quit();
 	}	
 	
 }

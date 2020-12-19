@@ -22,7 +22,7 @@ WebDriver driver;
 	
 	@BeforeMethod
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\eclipse-workspace\\AutomationTestingOfZeroBanking\\src\\test\\resources\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\git\\ZeroBankingProject\\AutomationTestingOfZeroBanking\\src\\test\\resources\\Drivers\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.get("http://zero.webappsecurity.com/");
