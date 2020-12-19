@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zero Banking Automation Testing">
+  <test name="Testing Various testCases / features">
+    <classes>
+      <class name="testcases.TC001VerifyLandingPageTitle"/>
+      <class name="testcases.TC002VerifyLogin"/>
+      <class name="testcases.TC003VerifySearch"/> 
+      <class name="testcases.TC004AddNewPayee"/>
+      <class name="testcases.TC005VerifyFundsTransfer"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

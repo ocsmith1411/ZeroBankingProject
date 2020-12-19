@@ -1,0 +1,4 @@
+DEBUG   2020-12-15 09:34:15,112 [main] rough.PropertiesFileLog4jExample  - this is a debug log message
+INFO    2020-12-15 09:34:15,117 [main] rough.PropertiesFileLog4jExample  - this is a information log message
+WARN    2020-12-15 09:34:15,117 [main] rough.PropertiesFileLog4jExample  - this is a warning log message
+ERROR   2020-12-15 09:34:15,117 [main] rough.PropertiesFileLog4jExample  - this is a error log message

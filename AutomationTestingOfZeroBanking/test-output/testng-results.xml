@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10362" started-at="2020-12-18T17:29:43Z" finished-at="2020-12-18T17:29:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10362" started-at="2020-12-18T17:29:43Z" finished-at="2020-12-18T17:29:53Z">
+      <class name="testcases.TC002VerifyLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC002VerifyLogin@323b36e0]" name="init" is-config="true" duration-ms="19457" started-at="2020-12-18T12:29:23Z" finished-at="2020-12-18T12:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC002VerifyLogin@323b36e0]" name="setup" is-config="true" duration-ms="202" started-at="2020-12-18T12:29:43Z" finished-at="2020-12-18T12:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.TC002VerifyLogin@323b36e0]" name="verifyLogin" duration-ms="7057" started-at="2020-12-18T12:29:43Z" finished-at="2020-12-18T12:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.TC002VerifyLogin@323b36e0]" name="tearDown" is-config="true" duration-ms="2984" started-at="2020-12-18T12:29:50Z" finished-at="2020-12-18T12:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002VerifyLogin.verifyLogin()[pri:0, instance:testcases.TC002VerifyLogin@323b36e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC002VerifyLogin@323b36e0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-18T12:29:53Z" finished-at="2020-12-18T12:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC002VerifyLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

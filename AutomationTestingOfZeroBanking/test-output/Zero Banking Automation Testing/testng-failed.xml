@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Zero Banking Automation Testing]">
+  <test name="Testing Various testCases / features(failed)">
+    <classes>
+      <class name="testcases.TC003AddNewPayee">
+        <methods>
+          <include name="verifyAddPayee" invocation-numbers="0 1"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC003AddNewPayee -->
+    </classes>
+  </test> <!-- Testing Various testCases / features(failed) -->
+</suite> <!-- Failed suite [Zero Banking Automation Testing] -->
